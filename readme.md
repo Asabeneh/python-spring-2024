@@ -18,15 +18,10 @@ This script demonstrates basic usage of print statements in Python.
 
 # Print a simple greeting
 print('Hello world!')
-
 print('Do you love Python?')
-
 print('I really really love Python')
-
 print("We can create a string using a single quote, double quote, or multiple quotes")
-
 print('''It is possible to make a string with triple quote''')
-
 print("""It is possible to make a string using triple quotes""")
 ```
 
