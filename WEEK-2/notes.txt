@@ -1,0 +1,5 @@
+Module 2: Python Basics
+- Variables 
+- String and string methods
+- Conditionals
+- Loops
