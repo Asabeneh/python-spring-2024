@@ -1,0 +1,4 @@
+My students love Python programming
+Today, they are learning file handling
+This is the third line in this file
+We are trying to read the text in this file, fourth line
