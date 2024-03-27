@@ -1,0 +1,4 @@
+core modules: math, pprint, os, 
+third party modules: numpy, pandas, mathplotlib, textblob
+pip install numpy
+Virtual environment 
