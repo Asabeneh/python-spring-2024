@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+    <div>
+      
+        <ul>
+            <li>
+            <a href='/home'>Home</a>
+            <a href='/about'>About</a>
+            <a href='/cats'>Cats</a>
+            </li>
+            </ul>
+    </div>
+    <h1>About Us</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, doloremque harum quos unde obcaecati necessitatibus suscipit ipsa cum beatae similique iure possimus, labore vero accusamus molestiae officia exercitationem illum fugit.</p>
+    <h2>Cats</h2>
+    <h1> Instructor: {{first_name}} {{last_name}}</h1>
+    <ul>
+        {% for cat in data %}
+         <li>{{cat['name']}}</li>
+    {% endfor %}
+    </ul>
+</body>
+</html>
